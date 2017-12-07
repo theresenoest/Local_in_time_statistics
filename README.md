@@ -1,7 +1,6 @@
 # Local_in_time_statistics
 
 This repository contains the code used for local in time statistics analyses of gene expression data with respect to time to diagnosis as described in [Holden et al. 2017.](http://www.ingentaconnect.com/content/doaj/11799870/2017/00000055/00000001/art00003)
-The code was created by the Norwegian Computing Centre.
 
 
 # Repository
@@ -18,7 +17,7 @@ This code is adopted to analyse case-control differences in gene expression leve
 Data on time to diagnosis must be available and the methods allow for comparisons between two strata (e.g. with and without spread).
 
 The main script is analyseCancerData.r which calls the other scripts. 
-The analysis assumes a data file containing microarray-based gene expression data in …data/prospectiveLungCancerData.R.
+The analysis assumes a data file containing microarray-based gene expression data in …data/prospectiveCancerData.R.
 Also, adjustments of e.g. reading of the data, variable names and file paths must be performed for each data set.
 Further details can be found in each script.
 
